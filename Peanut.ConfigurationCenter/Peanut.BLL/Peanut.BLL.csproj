@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Peanut.Common\Peanut.Common.csproj" />
+    <ProjectReference Include="..\Peanut.DAL\Peanut.DAL.csproj" />
+    <ProjectReference Include="..\Peanut.Entity\Peanut.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
